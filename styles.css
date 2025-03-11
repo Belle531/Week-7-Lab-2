@@ -1,0 +1,31 @@
+body {
+    background-color: #afd4ed;
+}
+
+.custom-navbar-bg {
+    background-color: #0076ff;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+    border: 1px dashed #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-placeholder::before {
+    content: "X";
+    font-size: 2em;
+    color: #ccc;
+}
+.caption {
+    text-align: center;
+}
+
+.custom-footer-bg {
+    background-color: #0076ff; 
+    color: white; 
+}
